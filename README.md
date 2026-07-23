@@ -169,62 +169,64 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
+
+## OUTPUT
+![20](./img/20.png)
+
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
-
+![21](./img/21.png)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
-
+![22](./img/22.png)
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-
+![23](./img/23.png)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
-
+![24](./img/24.png)
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
-
+![25](./img/25.png)
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![26](./img/26.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
-
+![27](./img/27.png)
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
-
+![28](./img/)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
-
-egrep 'Linux.*World' newfile 
-## OUTPUT
-
+![29](./img/29.png)
 
 egrep l{2} newfile
 ## OUTPUT
 
-
+![30](./img/30.png)
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
+![31](./img/31.png)
 
 cat > file23
 ```
@@ -243,76 +245,76 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
-
+![33](./img/33.png)
 
 sed -n -e '$p' file23
 ## OUTPUT
 
-
+![32](./img/32.png)
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
-
+![34](./img/34.png)
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
-
+![35](./img/35.pnga)
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
-
+![36](./img/36.png)
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
-
+![37](./img/37.png)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
-
+![38](./img/38.png)
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
-
+![39](./img/39.png)
 
 seq 10 
 ## OUTPUT
 
-
+![40](./img/40.png)
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
-
+![41](./img/41.png)
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
-
+![42](./img/42.png)
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
-
+![43](./img/43.png)
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-
+![44](./img/44.png)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-
+![45](./img/45.png)
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
-
+![46](./img/46.png)
 
 sed -n '2,4{s/$/*/;p}' file23
 
