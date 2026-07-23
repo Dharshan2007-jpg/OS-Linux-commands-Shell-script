@@ -211,7 +211,7 @@ egrep '((W|w)orld$)' newfile
 egrep '[1-9]' newfile 
 ## OUTPUT
 
-![28](./img/)
+![28](./img/28.png)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
@@ -418,6 +418,7 @@ ls .gz
 gunzip backup.tar.gz
 ## OUTPUT
 
+![59](./img/59.pngS)
  
 # Shell Script
 ```
