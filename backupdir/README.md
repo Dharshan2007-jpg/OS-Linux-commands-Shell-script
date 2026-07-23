@@ -384,37 +384,25 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 tar -cvf backup.tar *
 ## OUTPUT
 
-![53](./img/53.png)
 
 mkdir backupdir
  
 mv backup.tar backupdir
 
 cd backupdir
-## OUTPUT
-
-![54](./img/54.png)
  
 tar -tvf backup.tar
 ## OUTPUT
 
-![56](./img/56.png)
 
 tar -xvf backup.tar
 ## OUTPUT
 
-![55](./img/55.png)
-
 gzip backup.tar
-## OUTPUT
-
-![57](./img/57.png)
 
 ls .gz
 ## OUTPUT
  
-![58](./img/58.png)
-
 gunzip backup.tar.gz
 ## OUTPUT
 
