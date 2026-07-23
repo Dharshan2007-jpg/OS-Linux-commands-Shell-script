@@ -418,7 +418,7 @@ ls .gz
 gunzip backup.tar.gz
 ## OUTPUT
 
-![59](./img/59.pngS)
+![59](./img/59.png)
  
 # Shell Script
 ```
