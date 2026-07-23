@@ -260,7 +260,7 @@ sed  -e 's/Ram/Sita/' file23
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
-![35](./img/35.pnga)
+![35](./img/35.png)
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
