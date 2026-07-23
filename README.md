@@ -54,14 +54,14 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+![05] (./img/05.png)
 comm file1 file2
  ## OUTPUT
-
+![06] (./img/06.png)
  
 diff file1 file2
 ## OUTPUT
-
+![07] (./img/07.png)
 
 #Filters
 
@@ -80,22 +80,23 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
-
+## OUTPUT
+![08-cat11&22](./img/08-cat11&22.png)
 
 cut -c1-3 file11
 ## OUTPUT
 
-
+![09](./img/09.png)
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-
+![10](./img/10.png)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![11](./img/11.png)
 
 cat < newfile 
 ```
@@ -106,6 +107,9 @@ hello world
 cat > newfile 
 Hello world
 hello world
+
+## OUTPUT
+![12](./img/12.png)
  
 grep Hello newfile 
 ## OUTPUT
